@@ -1,8 +1,8 @@
 package teensyrawhid
 
 /*
-#cgo CFLAGS: -I/usr/include -Wall -O2 -DOS_MACOSX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -mmacosx-version-min=10.5
-#cgo LDFLAGS: -mmacosx-version-min=10.5  -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -framework IOKit -framework CoreFoundation
+#cgo CFLAGS: -I/usr/local/include -Wall -O2 -DOS_MACOSX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.5
+#cgo LDFLAGS: -mmacosx-version-min=10.5  -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -framework IOKit -framework CoreFoundation
 #include "hid.h"
 #include "hid_MACOSX.h"
  */
